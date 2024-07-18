@@ -1,6 +1,7 @@
 package human
-import "fmt"
-
+import ("fmt"
+	"github.com/riya-goyal-22/mammals"
+)
 var Name string
 
 func Speak(){
@@ -8,4 +9,7 @@ func Speak(){
 }
 func Speaks(){
 	fmt.Println("Blablabla")
+}
+func NonHuman(){
+	mammal.Speak()
 }
